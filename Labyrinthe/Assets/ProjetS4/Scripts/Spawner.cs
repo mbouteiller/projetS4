@@ -13,6 +13,9 @@ public class Spawner : MonoBehaviour {
 	public GameObject Check = null;
 	public GameObject RedBase = null;
 	public GameObject BlueBase = null;
+	public GameObject Object1 = null;
+	public GameObject Object2 = null;
+	public GameObject Object3 = null;
 	public int Rows = 8;
 	public int Columns = 8;
 	public float CellWidth = 5;
@@ -52,6 +55,21 @@ public class Spawner : MonoBehaviour {
 					if(cell.WallBack){
 						tmp = Instantiate(Wall,new Vector3(x,0,z-CellHeight/2)+Wall.transform.position,Quaternion.Euler(0,180,0)) as GameObject;// back
 						tmp.transform.parent = transform;
+					}
+					if(Random.Range(0, 20) == 7) {
+						int test = Random.Range(0, 3);
+						if(test == 0) {
+							tmp = Instantiate(Object1,new Vector3(x,1,z)+Wall.transform.position,Quaternion.Euler(0,180,0)) as GameObject;
+							tmp.transform.parent = transform;
+						}
+						else if (test == 1) {
+								tmp = Instantiate(Object2,new Vector3(x,1,z)+Wall.transform.position,Quaternion.Euler(0,180,0)) as GameObject;
+								tmp.transform.parent = transform;
+						}
+						else {
+								tmp = Instantiate(Object3,new Vector3(x,1,z)+Wall.transform.position,Quaternion.Euler(0,180,0)) as GameObject;
+								tmp.transform.parent = transform;
+						}
 					}
 				}
 				else {

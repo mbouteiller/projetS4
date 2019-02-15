@@ -203,6 +203,9 @@ MonoBehaviour:
   Check: {fileID: 142476, guid: f3f97a2401feba4479a301d6181e9da6, type: 2}
   RedBase: {fileID: 1339739790372802, guid: b3087b7daf8044d1a8e98105f935a65e, type: 2}
   BlueBase: {fileID: 1881209131443792, guid: 9b313a1cea40940059bb9986db2f322c, type: 2}
+  Object1: {fileID: 1948965863742440, guid: affae23b96eee49e5990c5c32f4c6b08, type: 2}
+  Object2: {fileID: 1948965863742440, guid: affae23b96eee49e5990c5c32f4c6b08, type: 2}
+  Object3: {fileID: 1948965863742440, guid: affae23b96eee49e5990c5c32f4c6b08, type: 2}
   Rows: 35
   Columns: 35
   CellWidth: 4
