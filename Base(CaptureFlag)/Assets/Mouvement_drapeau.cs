@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sc : MonoBehaviour {
+public class Mouvement_drapeau : MonoBehaviour {
 
     void Update()
     {

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Movement : MonoBehaviour
+public class Joueur : MonoBehaviour
 {
 
     public float speed;
@@ -36,7 +36,7 @@ public class Movement : MonoBehaviour
             if(other.name == "Blue flag")
             {
 
-                rend.material.color = Color
+               // rend.material.color = Color
             }
         }
     }
